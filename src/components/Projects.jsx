@@ -3,7 +3,6 @@ import projects from '../Data/projects.js';
 const Projects = () => (
   <section className="project">
     <div className="section__container project__container">
-      <p className="section__subtitle">Portfolio</p>
       <h2 className="section__title"><span>Latest</span> Project</h2>
       <div className="project__grid">
         {projects.map((project, index) => (

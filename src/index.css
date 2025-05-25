@@ -169,9 +169,10 @@ header {
 /* skills UI */
 
 .skills {
-  background-color: var(--primary-color);
+  background-color: var(--text-dark);
   padding: 80px 120px;
   overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .skills__title {
@@ -230,10 +231,66 @@ header {
 
 
 
+
+
+.experience {
+  background-color: var(--text-dark);
+  padding: 60px 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience__title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.experience__title span {
+  color: #007acc;
+}
+
+.experience__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .experience__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.experience__card {
+
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.experience__card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #b13b3b;
+}
+
+.experience__card p {
+  margin: 5px 0;
+  color: #e0d5d5;
+}
+
+
+
+
+
 /* hobbies section */
 
 .hobbies {
-  background-color: var(--primary-color);
+  background-color: var(--text-dark);
   padding: 60px 20px;
   text-align: center;
 }
@@ -295,12 +352,15 @@ header {
 
 
 /* service layoust */
-.service,
+
 footer {
   background-color: var(--primary-color);
 }
 
-.service__grid,
+
+.project{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
 .project__grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -308,39 +368,6 @@ footer {
   margin-top: 5rem;
 }
 
-.service__card {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  background-color: var(--text-dark);
-  border-radius: 5px;
-}
-
-.service__card h4 {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.service__card p {
-  color: var(--text-light);
-}
-
-.service__card .read__more {
-  width: max-content;
-  padding: 0.5rem 1rem;
-  color: var(--text-light);
-  font-size: 0.8rem;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.05);
-  cursor: pointer;
-}
-
-
-
-/* project section */
 
 
 .project__card {
