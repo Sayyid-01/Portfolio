@@ -247,7 +247,7 @@ header {
 }
 
 .experience__title span {
-  color: #007acc;
+  color: var(--secondary-color);
 }
 
 .experience__grid {
