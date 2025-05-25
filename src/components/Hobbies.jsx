@@ -2,12 +2,12 @@ import React from 'react';
 import '../index.css';
 
 const hobbies = [
-  { name: "Traveling", icon: "../../src/assets/hobbies/travelling.jpg" },
-  { name: "Photography", icon: "../../src/assets/hobbies/photography.jpeg" },
-  { name: "Biking", icon: "../../src/assets/hobbies/biking.avif" },
-  { name: "Music", icon: "../../src/assets/hobbies/music.jpg" },
-  { name: "Reading", icon: "../../src/assets/hobbies/reading.jpeg" },
-  { name: "Coding", icon: "../../src/assets/hobbies/coding.jpg" },
+  { name: "Traveling", icon: "/assets//hobbies/travelling.jpg" },
+  { name: "Photography", icon: "/assets//hobbies/photography.jpeg" },
+  { name: "Biking", icon: "/assets//hobbies/biking.avif" },
+  { name: "Music", icon: "/assets//hobbies/music.jpg" },
+  { name: "Reading", icon: "/assets//hobbies/reading.jpeg" },
+  { name: "Coding", icon: "/assets//hobbies/coding.jpg" },
 ];
 
 const Hobbies = () => {
