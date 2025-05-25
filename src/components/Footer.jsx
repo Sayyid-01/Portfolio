@@ -4,6 +4,7 @@ const Footer = () => (
       <div className="footer__content">
         <h2 className="section__title">Contact <span>Me!</span></h2>
         <p className="section__subtitle">If you have any project in your mind</p>
+        <p>You can reach me through the contact form provided on this website. Simply fill out the form with your name, email address, and message, and I will get back to you as soon as possible.</p>
         <div className="footer__details">
           <p>Jasidih, Deoghar (Jharkhand)</p>
           <p>India</p>
