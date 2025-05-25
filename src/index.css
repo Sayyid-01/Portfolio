@@ -94,7 +94,11 @@ nav .nav__logo a span {
 
 header {
   height: 100vh;
+<<<<<<< HEAD
   background-image: url("../src/assets/header-bg.jpg");
+=======
+  background-image: url("/assets/header-bg.jpg");
+>>>>>>> f5b72b6ae4fc81142b6c40f08993be82ff420fae
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

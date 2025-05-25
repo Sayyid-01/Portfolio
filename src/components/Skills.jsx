@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+<<<<<<< HEAD
 import htmlLogo from '../../src/assets/html-logo.webp';
 import cssLogo from '../../src/assets/css-logo.png';
 import jsLogo from '../../src/assets/js-logo.png';
@@ -8,6 +9,16 @@ import reduxLogo from '../../src/assets/redux-logo.png';
 import tailwindLogo from '../../src/assets/talwind-logo.avif';
 import nodeLogo from '../../src/assets/node.png';
 import bootstrapLogo from '../../src/assets/bootstrap.jpeg';
+=======
+import htmlLogo from '/assets/html-logo.webp';
+import cssLogo from '/assets/css-logo.png';
+import jsLogo from '/assets/js-logo.png';
+import reactLogo from '/assets/react-logo.png';
+import reduxLogo from '/assets/redux-logo.png';
+import tailwindLogo from '/assets/talwind-logo.avif';
+import nodeLogo from '/assets/node.png';
+import bootstrapLogo from '/assets/bootstrap.jpeg';
+>>>>>>> f5b72b6ae4fc81142b6c40f08993be82ff420fae
 
 const skills = [
   { name: "HTML", logo: htmlLogo },
