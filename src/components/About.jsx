@@ -2,7 +2,7 @@ const About = () => (
   <section className="about">
     <div className="section__container about__container">
       <div className="about__image">
-        <img src="../../src/assets/about-bg.jpeg" alt="about" />
+        <img src="../assets/about-bg.jpeg" alt="about" />
       </div>
       <div className="about__content">
         <h2 className="section__title">About <span>Me</span></h2>
