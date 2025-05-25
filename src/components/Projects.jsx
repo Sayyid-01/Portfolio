@@ -8,16 +8,18 @@ const Projects = () => (
       <div className="project__grid">
         {projects.map((project, index) => (
           <div className="project__card" key={index}>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+
+            <a href={project.link}>
+
               <img src={project.image} alt={project.title} />
               <div className="overlay">
                 <h2>{project.title}</h2>
                 <p className="text">{project.description}</p>
               </div>
-<<<<<<< HEAD
-=======
+
               <h2 className='text'>{project.title}</h2>
->>>>>>> f5b72b6ae4fc81142b6c40f08993be82ff420fae
+
+
             </a>
           </div>
         ))}
@@ -26,8 +28,6 @@ const Projects = () => (
   </section>
 );
 
-<<<<<<< HEAD
+
 export default Projects;
-=======
-export default Projects;
->>>>>>> f5b72b6ae4fc81142b6c40f08993be82ff420fae
+

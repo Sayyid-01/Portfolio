@@ -9,16 +9,11 @@ const Footer = () => (
           <p>India</p>
         </div>
         <div className="social__icons">
-<<<<<<< HEAD
-          <a href="#" className="icon">Facebook</a>
-          <a href="#" className="icon">Twitter</a>
-          <a href="#" className="icon">LinkedIn</a>
-          <a href="#" className="icon">GitHub</a>
-=======
+
           <a href="https://www.facebook.com/sahilkhan.sahilkhan.336717/" className="icon">Facebook</a>
           <a href="https://www.linkedin.com/in/sahil-ansari-8b98b0364" className="icon">LinkedIn</a>
           <a href="https://github.com/Sayyid-01" className="icon">GitHub</a>
->>>>>>> f5b72b6ae4fc81142b6c40f08993be82ff420fae
+
         </div>
       </div>
       <form
