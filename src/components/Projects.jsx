@@ -14,6 +14,7 @@ const Projects = () => (
                 <h2>{project.title}</h2>
                 <p className="text">{project.description}</p>
               </div>
+              <h2 className='text'>{project.title}</h2>
             </a>
           </div>
         ))}
