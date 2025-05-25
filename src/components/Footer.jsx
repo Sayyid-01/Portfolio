@@ -9,9 +9,11 @@ const Footer = () => (
           <p>India</p>
         </div>
         <div className="social__icons">
+
           <a href="https://www.facebook.com/sahilkhan.sahilkhan.336717/" className="icon">Facebook</a>
           <a href="https://www.linkedin.com/in/sahil-ansari-8b98b0364" className="icon">LinkedIn</a>
           <a href="https://github.com/Sayyid-01" className="icon">GitHub</a>
+
         </div>
       </div>
       <form

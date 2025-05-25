@@ -1,5 +1,7 @@
 import React from 'react';
 import '../index.css';
+
+
 import htmlLogo from '/assets/html-logo.webp';
 import cssLogo from '/assets/css-logo.png';
 import jsLogo from '/assets/js-logo.png';
@@ -8,6 +10,7 @@ import reduxLogo from '/assets/redux-logo.png';
 import tailwindLogo from '/assets/talwind-logo.avif';
 import nodeLogo from '/assets/node.png';
 import bootstrapLogo from '/assets/bootstrap.jpeg';
+
 
 const skills = [
   { name: "HTML", logo: htmlLogo },
